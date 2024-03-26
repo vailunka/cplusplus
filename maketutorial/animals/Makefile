@@ -1,4 +1,4 @@
-dog_program : 
+dog_program : dog.o main.o
 	g++ dog.o main.o -o dog_program
 
 dog.o : dog.cpp dog.hpp
